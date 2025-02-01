@@ -96,7 +96,7 @@ class Productfilter
     }
 }
 
-public class SearchingProuduct
+public class SearchingProduct
 {
     public static void main(String[] args) 
     {
@@ -147,5 +147,7 @@ public class SearchingProuduct
         max = scan.nextDouble();
         System.out.println("\nFilter by category, price range & brand (" + ct + ", " + min + ", " + max + ", " + br + "):");
         filter.filter(ct, br, min, max);   
+
+        scan.close();
     }
 }
