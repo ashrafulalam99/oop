@@ -10,7 +10,7 @@ public class Calculator
         int a = scan.nextInt();
         int b = scan.nextInt();
         
-        System.out.print("Enter the opertor: ");
+        System.out.print("Enter the operator: ");
         char c = scan.next().charAt(0);
 
         if(c == '+') System.out.print("The result is " + (a + b));
